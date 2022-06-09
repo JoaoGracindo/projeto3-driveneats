@@ -14,6 +14,7 @@ body {
     padding-top: 8px;
     box-sizing: border-box;
     color: #FFFFFF;
+    z-index: 1;
 }
 .topo h1 {
     font-family: 'Righteous', cursive;
@@ -39,7 +40,11 @@ body {
     top: 92px;
     margin-top: 31px;
     margin-left: 20px;
+}
 
+.produtos > div {
+    display: flex;
+    
 }
 
 .produtos h1 {
@@ -75,6 +80,7 @@ body {
     box-sizing: border-box;
     padding-left: 14px;
     padding-top: 18px;
+    margin-right: 16px;
 
 }
 
@@ -83,6 +89,8 @@ font-size: 16px;
 font-weight: 700;
 margin-top: 8px;
 margin-bottom: 4px;
+color: #333333
+
 }
 
 .item :nth-child(3) {
@@ -90,12 +98,14 @@ font-size: 15px;
 font-weight: 300;
 Line-height: 17.58px;
 margin-bottom: 5px;
+color: #A6A6A6;
 }
 
 .item :nth-child(4) {
 
 font-size: 16px;
 font-weight: 400;
+color:#000000;
 }
 
 .finalizar {
