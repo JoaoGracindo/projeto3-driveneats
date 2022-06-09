@@ -84,3 +84,30 @@ font-weight: 300;
 font-size: 16px;
 font-weight: 400;
 }
+
+.finalizar {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 92px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #FFFFFF;
+}
+
+.botao-finalizar {
+    height: 61px;
+    width: 364px;
+    border-radius: 50px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    color: #FFFFFF;
+    background-color: #CBCBCB;
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+}
