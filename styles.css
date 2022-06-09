@@ -21,6 +21,7 @@ body {
     font-weight: 400;
     letter-spacing: -0.012em;
     text-align: left;
+    padding-bottom: 5px;
 
 }
 
@@ -36,6 +37,13 @@ body {
 .produtos {
     position: absolute;
     top: 92px;
+    margin-top: 31px;
+    margin-left: 20px;
+
+}
+
+.produtos h1 {
+    margin-bottom: 17px;
 }
 
 
@@ -52,6 +60,7 @@ body {
     height: 87px;
     width: 144px;
     border-radius: 4px;
+    background-color: #CF2B2B;
 
 }
 
@@ -72,11 +81,15 @@ body {
 .item :nth-child(2) {
 font-size: 16px;
 font-weight: 700;
+margin-top: 8px;
+margin-bottom: 4px;
 }
 
 .item :nth-child(3) {
 font-size: 15px;
 font-weight: 300;
+Line-height: 17.58px;
+margin-bottom: 5px;
 }
 
 .item :nth-child(4) {
@@ -98,6 +111,7 @@ font-weight: 400;
 }
 
 .botao-finalizar {
+    box-sizing: border-box;
     height: 61px;
     width: 364px;
     border-radius: 50px;
@@ -107,7 +121,9 @@ font-weight: 400;
     color: #FFFFFF;
     background-color: #CBCBCB;
     display: flex;
-    align-items: center;
+    justify-content: center;
     text-align: center;
+    line-height: 23.44px;
+    padding-top: 8px;
 
 }
