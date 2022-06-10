@@ -1,3 +1,10 @@
+* {
+    box-sizing: border-box;
+}
+
+
+
+
 body {
     background-color: #E5E5E5;
 }
@@ -12,7 +19,6 @@ body {
     width: 100%;
     padding-left: 21px;
     padding-top: 8px;
-    box-sizing: border-box;
     color: #FFFFFF;
     z-index: 1;
 }
@@ -35,24 +41,25 @@ body {
 }
 
 
-.produtos {
+.comidas, .bebidas, .sobremesas {
     position: absolute;
-    top: 92px;
+
     margin-top: 31px;
     margin-left: 20px;
+    
 }
 
-.produtos > div {
+.comidas > div, .bebidas > div, .sobremesas > div {
     display: flex;
     
 }
 
-.produtos h1 {
+.comidas h1, .bebidas h1, .sobremesas h1 {
     margin-bottom: 17px;
 }
 
 
-.produtos h1 {
+.comidas h1, .bebidas h1, .sobremesas h1 {
     font-family: 'Righteous', cursive;
     font-size: 26px;
     font-weight: 400;
@@ -61,7 +68,7 @@ body {
 
 }
 
-.produtos img {
+.comidas img, .bebidas img, .sobremesas img {
     height: 87px;
     width: 144px;
     border-radius: 4px;
@@ -77,10 +84,10 @@ body {
     height: 216px;
     width: 172px;
     border-radius: 9px;
-    box-sizing: border-box;
     padding-left: 14px;
     padding-top: 18px;
     margin-right: 16px;
+    
 
 }
 
@@ -121,7 +128,6 @@ color:#000000;
 }
 
 .botao-finalizar {
-    box-sizing: border-box;
     height: 61px;
     width: 364px;
     border-radius: 50px;
@@ -136,4 +142,11 @@ color:#000000;
     line-height: 23.44px;
     padding-top: 8px;
 
+}
+
+
+.selecionado {
+    border: solid 4px #32B72F;
+    padding-left: 10px;
+    padding-top: 14px;
 }
