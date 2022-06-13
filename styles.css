@@ -189,10 +189,16 @@ color:#000000;
     justify-content: center;
 }
 
+.itens-checkout {
+    display: inline-block;
+    justify-content: space-between;
+}
+
 
 .itens-checkout :nth-child(1) {
+    margin-right: 50%;
+    text-align: left;
     left: 5%;
-     
      
  }
  .itens-checkout :nth-child(2) {

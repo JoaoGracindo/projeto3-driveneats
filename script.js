@@ -39,7 +39,7 @@ function temselecionado (x, y){
         bebidaPreco = document.querySelector ('.bebidas .selecionado .preco').innerHTML;
         sobremesa = document.querySelector ('.sobremesas .selecionado .nome').innerHTML;
         sobremesaPreco = document.querySelector ('.sobremesas .selecionado .preco').innerHTML;
-        total = parseFloat(comidaPreco.replace('R$', '').replace(',', '.')) + parseFloat(bebidaPreco.replace('R$', '').replace(',', '.')) + parseFloat(sobremesaPreco.replace('R$', '').replace(',', '.'));
+        total = "R$ " + (parseFloat(comidaPreco.replace('R$', '').replace(',', '.')) + parseFloat(bebidaPreco.replace('R$', '').replace(',', '.')) + parseFloat(sobremesaPreco.replace('R$', '').replace(',', '.'))).toFixed(2);
         console.log(total)
     }
 
