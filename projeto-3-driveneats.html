@@ -35,23 +35,26 @@
             <div>
                 <div class="item" onclick="temselecionado(0,'.comidas')">
                     <img src="imagens-projeto-3/frango_yin_yang 1.png" />
-                    <p>Frango yin yang</p>
+                    <p class="nome">Frango yin yang</p>
                     <p>Um pouco de batata, um pouco de salada</p>
-                    <p>R$ 14,90</p>
+                    <p class="preco">R$ 14,90</p>
+                    <ion-icon name="checkmark-circle"></ion-icon>
                 </div>
 
                 <div class="item" onclick="temselecionado(1,'.comidas')">
                     <img src="imagens-projeto-3/frango_yin_yang 1.png" />
-                    <p>Frango yin yang</p>
+                    <p class="nome">Frango yin yang</p>
                     <p>Um pouco de batata, um pouco de salada</p>
-                    <p>R$ 14,90</p>
+                    <p class="preco">R$ 15,90</p>
+                    <ion-icon name="checkmark-circle"></ion-icon>
                 </div>
 
                 <div class="item" onclick="temselecionado(2,'.comidas')">
                     <img src="imagens-projeto-3/frango_yin_yang 1.png" />
-                    <p>Frango yin yang</p>
+                    <p class="nome">Frango yin yang</p>
                     <p>Um pouco de batata, um pouco de salada</p>
-                    <p>R$ 14,90</p>
+                    <p class="preco">R$ 16,90</p>
+                    <ion-icon name="checkmark-circle"></ion-icon>
                 </div>
             </div>
         </div>
@@ -65,24 +68,27 @@
 
             <div>
                 <div class="item" onclick="temselecionado(0,'.bebidas')">
-                    <img src="imagens-projeto-3/frango_yin_yang 1.png" />
-                    <p>Frango yin yang</p>
-                    <p>Um pouco de batata, um pouco de salada</p>
-                    <p>R$ 14,90</p>
+                    <img src="imagens-projeto-3/coquinha_gelada 1.png" />
+                    <p class="nome">coquinha gelada</p>
+                    <p>Lata 350ml</p>
+                    <p class="preco">R$ 4,90</p>
+                    <ion-icon name="checkmark-circle"></ion-icon>
                 </div>
 
                 <div class="item" onclick="temselecionado(1,'.bebidas')">
-                    <img src="imagens-projeto-3/frango_yin_yang 1.png" />
-                    <p>Frango yin yang</p>
-                    <p>Um pouco de batata, um pouco de salada</p>
-                    <p>R$ 14,90</p>
+                    <img src="imagens-projeto-3/coquinha_gelada 1.png" />
+                    <p class="nome">coquinha gelada</p>
+                    <p>Lata 350ml</p>
+                    <p class="preco">R$ 5,90</p>
+                    <ion-icon name="checkmark-circle"></ion-icon>
                 </div>
 
                 <div class="item" onclick="temselecionado(2,'.bebidas')">
-                    <img src="imagens-projeto-3/frango_yin_yang 1.png" />
-                    <p>Frango yin yang</p>
-                    <p>Um pouco de batata, um pouco de salada</p>
-                    <p>R$ 14,90</p>
+                    <img src="imagens-projeto-3/coquinha_gelada 1.png" />
+                    <p class="nome">coquinha gelada</p>
+                    <p>Lata 350ml</p>
+                    <p class="preco">R$ 6,90</p>
+                    <ion-icon name="checkmark-circle"></ion-icon>
                 </div>
             </div>
         </div>
@@ -97,24 +103,27 @@
 
             <div>
                 <div class="item" onclick="temselecionado(0,'.sobremesas')">
-                    <img src="imagens-projeto-3/frango_yin_yang 1.png" />
-                    <p>Frango yin yang</p>
-                    <p>Um pouco de batata, um pouco de salada</p>
-                    <p>R$ 14,90</p>
+                    <img src="imagens-projeto-3/pudim 1.png" />
+                    <p class="nome">Pudim</p>
+                    <p>Apenas pudim</p>
+                    <p class="preco">R$ 6,90</p>
+                    <ion-icon name="checkmark-circle"></ion-icon>
                 </div>
 
                 <div class="item" onclick="temselecionado(1,'.sobremesas')">
-                    <img src="imagens-projeto-3/frango_yin_yang 1.png" />
-                    <p>Frango yin yang</p>
-                    <p>Um pouco de batata, um pouco de salada</p>
-                    <p>R$ 14,90</p>
+                    <img src="imagens-projeto-3/pudim 1.png" />
+                    <p class="nome">Pudim</p>
+                    <p>Apenas pudim</p>
+                    <p class="preco">R$ 7,90</p>
+                    <ion-icon name="checkmark-circle"></ion-icon>
                 </div>
 
                 <div class="item" onclick="temselecionado(2,'.sobremesas')">
-                    <img src="imagens-projeto-3/frango_yin_yang 1.png" />
-                    <p>Frango yin yang</p>
-                    <p>Um pouco de batata, um pouco de salada</p>
-                    <p>R$ 14,90</p>
+                    <img src="imagens-projeto-3/pudim 1.png" />
+                    <p class="nome">Pudim</p>
+                    <p>Apenas pudim</p>
+                    <p class="preco">R$ 8,90</p>
+                    <ion-icon name="checkmark-circle"></ion-icon>
                 </div>
             </div>
         </div>
@@ -122,12 +131,26 @@
 
 
         <div class="finalizar">
-            <div class="botao-finalizar">
+            <div class="botao-finalizar" onclick="finalizarPedido ()">
                 Selecione os 3 itens <br>para fechar o pedido
             </div>
-    </div>
+        </div>
 
-    <script src="script.js"></script>
+        <div class="menu-finalizar escondido">
+            <div style="font-weight: 700;">Confirme seu pedido</div>
+            <div class ="itens-checkout"><div class ="checkout-comida">comida</div><div class ="preco-comida">preco</div></div>
+            <div class ="itens-checkout"><div class ="checkout-bebida">bebida</div><div class ="preco-bebida">preco</div></div>
+            <div class ="itens-checkout"><div class ="checkout-sobremesa">spbremesa</div><div class ="preco-sobremesa">preco</div></div>
+            <div class ="itens-checkout" style="font-weight: 700;"><div class ="checkout-total">total</div><div class ="preco-total">preco</div></div>
+            <div class="botao-confirmar"><a href="https://wa.me/5521332251219?text=Ol%c3%a1%2c+gostaria+de+fazer+o+pedido%3a%0d%0a-+Prato%3a+Frango+Yin+Yang%0d%0a-+Bebida%3a+Coquinha+Gelada%0d%0a-+Sobremesa%3a+Pudim%0d%0aTotal%3a+R%24+27.70">tudo certo, pode pedir<a></div>
+            <div style="font-weight: 700; font-size: 20px; color: #FFFFFF;">cancelar</div>
+
+        </div>
+
+    <script src="script.js">
+        finalizarPedido ();
+    </script>
+    <script src="https://unpkg.com/ionicons@5.4.0/dist/ionicons.js"></script>
 
     </body>
 </html>
