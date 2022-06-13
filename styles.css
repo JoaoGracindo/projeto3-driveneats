@@ -1,249 +1,257 @@
-\* {
-    box-sizing: border-box;
-}
 
 
 
 
-body {
-    background-color: #E5E5E5;
-}
 
 
-.topo {
-    background-color: #CF2B2B;
-    position: fixed;
-    left: 0;
-    top: 0;
-    height: 92px;
-    width: 100%;
-    padding-left: 21px;
-    padding-top: 8px;
-    color: #FFFFFF;
-    z-index: 1;
-}
-.topo h1 {
-    font-family: 'Righteous', cursive;
-    font-size: 44px;
-    font-weight: 400;
-    letter-spacing: -0.012em;
-    text-align: left;
-    padding-bottom: 5px;
-
-}
-
-.topo p {
-    font-family: 'Roboto', sans-serif;
-    font-size: 18px;
-    font-weight: 400;
-    text-align: left;
-
-}
+    \* {
+        box-sizing: border-box;
+    }
 
 
-.comidas, .bebidas, .sobremesas {
-    position: absolute;
-
-    margin-top: 31px;
-    margin-left: 20px;
-    
-}
-
-.comidas > div, .bebidas > div, .sobremesas > div {
-    display: flex;
-    
-}
-
-.comidas h1, .bebidas h1, .sobremesas h1 {
-    margin-bottom: 17px;
-}
 
 
-.comidas h1, .bebidas h1, .sobremesas h1 {
-    font-family: 'Righteous', cursive;
-    font-size: 26px;
-    font-weight: 400;
-    letter-spacing: 0.018em;
-    text-align: left;
-
-}
-
-.comidas img, .bebidas img, .sobremesas img {
-    height: 87px;
-    width: 144px;
-    border-radius: 4px;
-    background-color: #CF2B2B;
-
-}
-
-.item {
-    font-family: 'Roboto', sans-serif;
-    box-shadow: 0px 0px 10px -4px #00000040;
-    background-color: #FFFFFF;
-    position: relative;
-    height: 216px;
-    width: 172px;
-    border-radius: 9px;
-    padding-left: 14px;
-    padding-top: 18px;
-    margin-right: 16px;
-    
-
-}
-
-.item :nth-child(2) {
-font-size: 16px;
-font-weight: 700;
-margin-top: 8px;
-margin-bottom: 4px;
-color: #333333
-
-}
-
-.item :nth-child(3) {
-font-size: 15px;
-font-weight: 300;
-Line-height: 17.58px;
-margin-bottom: 5px;
-color: #A6A6A6;
-}
-
-.item :nth-child(4) {
-
-font-size: 16px;
-font-weight: 400;
-color:#000000;
-}
-
-.finalizar {
-    position: fixed;
-    bottom: 0;
-    left: 0;
-    width: 100%;
-    height: 92px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: #FFFFFF;
-}
-
-.botao-finalizar {
-    height: 61px;
-    width: 364px;
-    border-radius: 50px;
-    font-family: 'Roboto', sans-serif;
-    font-size: 20px;
-    font-weight: 400;
-    color: #FFFFFF;
-    background-color: #CBCBCB;
-    display: flex;
-    justify-content: center;
-    text-align: center;
-    line-height: 23.44px;
-    padding-top: 8px;
-
-}
+    body {
+        background-color: #E5E5E5;
+        
+    }
 
 
-.selecionado {
-    border: solid 4px #32B72F;
-    padding-left: 10px;
-    padding-top: 14px;
-    margin-right: 12px;
-}
+    .topo {
+        background-color: #CF2B2B;
+        position: fixed;
+        left: 0;
+        top: 0;
+        height: 92px;
+        width: 100%;
+        padding-left: 21px;
+        padding-top: 8px;
+        color: #FFFFFF;
+        z-index: 1;
+    }
+    .topo h1 {
+        font-family: 'Righteous', cursive;
+        font-size: 44px;
+        font-weight: 400;
+        letter-spacing: -0.012em;
+        text-align: left;
+        padding-bottom: 5px;
 
-.finalizar-clicavel {
-    background-color: #32B72F;
+    }
+
+    .topo p {
+        font-family: 'Roboto', sans-serif;
+        font-size: 18px;
+        font-weight: 400;
+        text-align: left;
+
+    }
+
+
+    .comidas, .bebidas, .sobremesas {
+        position: absolute;
+        overflow-x: scroll;
+        margin-top: 31px;
+        margin-left: 20px;
+        
+    }
+
+    .comidas > div, .bebidas > div, .sobremesas > div {
+        display: flex;
+        
+    }
+
+    .comidas h1, .bebidas h1, .sobremesas h1 {
+        margin-bottom: 17px;
+    }
+
+
+    .comidas h1, .bebidas h1, .sobremesas h1 {
+        font-family: 'Righteous', cursive;
+        font-size: 26px;
+        font-weight: 400;
+        letter-spacing: 0.018em;
+        text-align: left;
+
+    }
+
+    .comidas img, .bebidas img, .sobremesas img {
+        height: 87px;
+        width: 144px;
+        border-radius: 4px;
+        background-color: #CF2B2B;
+
+    }
+
+    .item {
+        font-family: 'Roboto', sans-serif;
+        box-shadow: 0px 0px 10px -4px #00000040;
+        background-color: #FFFFFF;
+        position: relative;
+        height: 216px;
+        width: 172px;
+        border-radius: 9px;
+        padding-left: 14px;
+        padding-top: 18px;
+        margin-right: 16px;
+        
+
+    }
+
+    .item :nth-child(2) {
+    font-size: 16px;
     font-weight: 700;
-    align-items: center;
-    justify-content: center;
+    margin-top: 8px;
+    margin-bottom: 4px;
+    color: #333333
 
-}
+    }
 
-.menu-finalizar {
-    height: 34%;
-    width: 90%;
-    position: fixed;
-    left: 5%;
-    top: 33%;
+    .item :nth-child(3) {
+    font-size: 15px;
+    font-weight: 300;
+    Line-height: 17.58px;
+    margin-bottom: 5px;
+    color: #A6A6A6;
+    }
 
-    border-radius: 50px;
-    z-index: 2;
-    background-color: #50D074;
-    box-sizing: border-box;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    align-items: center;
-    font-family: 'Roboto', sans-serif;
+    .item :nth-child(4) {
+
+    font-size: 16px;
     font-weight: 400;
-    font-size: 22px;
-    color: #FFFFFF;
-    box-shadow: 0px 0px 10px 1px rgba(0, 0, 0, 0.25);
+    color:#000000;
+    }
+
+    .finalizar {
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        height: 92px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #FFFFFF;
+    }
+
+    .botao-finalizar {
+        height: 61px;
+        width: 364px;
+        border-radius: 50px;
+        font-family: 'Roboto', sans-serif;
+        font-size: 20px;
+        font-weight: 400;
+        color: #FFFFFF;
+        background-color: #CBCBCB;
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        line-height: 23.44px;
+        padding-top: 8px;
       
-}
 
-.menu-finalizar > div {
-    width: 100%;
-    display: flex;
-    justify-content: center;
-}
-
-.itens-checkout {
-    display: inline-block;
-    justify-content: space-between;
-}
+    }
 
 
-.itens-checkout :nth-child(1) {
-    margin-right: 50%;
-    text-align: left;
-    left: 5%;
-     
- }
- .itens-checkout :nth-child(2) {
-    right: 5%;
-     
-     
- }
- 
+    .selecionado {
+        border: solid 4px #32B72F;
+        padding-left: 10px;
+        padding-top: 14px;
+        margin-right: 12px;
+    }
 
-.escondido {
-    display: none;
-}
+    .finalizar-clicavel {
+        background-color: #32B72F;
+        font-weight: 700;
+        align-items: center;
+        justify-content: center;
 
-.botao-confirmar{
-    height: 52px;
-    width: 329px;
-    border-radius: 100px;
-    background-color: #FFFFFF;
-    color: #50D074;
-    align-items: center;
+    }
 
-}
+    .menu-finalizar {
+        height: 34%;
+        width: 90%;
+        position: fixed;
+        left: 5%;
+        top: 33%;
 
-.menu-finalizar a {
-    font-style: none;
-    color: #50D074;
-    font-size: 22px ;
-    text-decoration: none;
-    font-weight: 700;
-}
+        border-radius: 50px;
+        z-index: 2;
+        background-color: #50D074;
+        box-sizing: border-box;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        font-family: 'Roboto', sans-serif;
+        font-weight: 400;
+        font-size: 22px;
+        color: #FFFFFF;
+        box-shadow: 0px 0px 10px 1px rgba(0, 0, 0, 0.25);
+        
+    }
 
-.desfoca {
-    background: rgba(255, 255, 255, 0.9);
-}
+    .menu-finalizar > div {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
 
-ion-icon {
-    display: none;
-}
+    .itens-checkout {
+        display: inline-block;
+        justify-content: space-between;
+    }
 
-.selecionado ion-icon {
-    display: initial;
-    color: #32B72F;
-    position: absolute;
-    bottom: 5%;
-    right: 5%;
-}
+
+    .itens-checkout :nth-child(1) {
+        margin-right: 50%;
+        text-align: left;
+        left: 5%;
+        
+    }
+    .itens-checkout :nth-child(2) {
+        right: 5%;
+        
+        
+    }
+    
+
+    .escondido {
+        display: none;
+    }
+
+    .botao-confirmar{
+        height: 52px;
+        width: 329px;
+        border-radius: 100px;
+        background-color: #FFFFFF;
+        color: #50D074;
+        align-items: center;
+
+    }
+
+    .menu-finalizar a {
+        font-style: none;
+        color: #50D074;
+        font-size: 22px ;
+        text-decoration: none;
+        font-weight: 700;
+    }
+
+    .desfoca {
+        background: rgba(255, 255, 255, 0.9);
+    }
+
+    ion-icon {
+        display: none;
+    }
+
+    .selecionado ion-icon {
+        display: initial;
+        color: #32B72F;
+        position: absolute;
+        bottom: 5%;
+        right: 5%;
+    }
 
 
